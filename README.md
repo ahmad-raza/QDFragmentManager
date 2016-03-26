@@ -7,10 +7,10 @@ QDFragmentManager is a android java control that will hep developers to integrat
 * QDFragmentManager keeps Tab-Specific stacks of fragments. If user navigate through different fragments and it moves to another tab and get back to previous. Application won't lost the last state of tab.
 * QDFragmentManager allows user to adjust its tabs layout as required. User can move tabs view to top or bottom by dealing with simple property.
 
-![Alt text](https://cloud.githubusercontent.com/assets/5131811/14060196/01107340-f37e-11e5-9de0-6096b851f675.gif "Sample with Top Tabs")
+![Alt text](https://cloud.githubusercontent.com/assets/5131811/14060228/a019b3f6-f37f-11e5-845b-2bf8ac3111d2.gif "Sample with Top Tabs")
 
 
-![Alt text](https://cloud.githubusercontent.com/assets/5131811/14060198/0620af1c-f37e-11e5-8011-cf05288e34d3.gif "Sample with Bottom Tabs")
+![Alt text](https://cloud.githubusercontent.com/assets/5131811/14060229/a664c4e4-f37f-11e5-9996-649f349520b4.gif "Sample with Bottom Tabs")
 
 To run the example project, clone the repo, and open it in Android Studio, Run it :)
 
