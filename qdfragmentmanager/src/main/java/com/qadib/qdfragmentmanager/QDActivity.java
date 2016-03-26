@@ -18,7 +18,7 @@ import java.util.List;
 /**
  * Created by ahmadraza on 28/07/15.
  */
-public abstract class FragmentHolder extends AppCompatActivity {
+public abstract class QDActivity extends AppCompatActivity {
 
     private static int TAB_LAYOUT_ID = -1;
     public static List<Class<?>> values = new ArrayList<Class<?>>();
@@ -59,7 +59,7 @@ public abstract class FragmentHolder extends AppCompatActivity {
     }
 
     public void setTabLayout(int layoutId) {
-        FragmentHolder.TAB_LAYOUT_ID = layoutId;
+        QDActivity.TAB_LAYOUT_ID = layoutId;
     }
 
     public void addTab(String name, Class<?> fragment) {

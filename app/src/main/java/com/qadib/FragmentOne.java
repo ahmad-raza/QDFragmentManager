@@ -7,12 +7,12 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.qadib.fragmentmanager.R;
-import com.qadib.qdfragmentmanager.Base.BaseFragment;
+import com.qadib.qdfragmentmanager.Base.QDFragment;
 
 /**
  * Created by ahmadraza on 29/07/15.
  */
-public class FragmentOne extends BaseFragment implements View.OnClickListener {
+public class FragmentOne extends QDFragment implements View.OnClickListener {
 
     public static FragmentOne newInstance() {
         FragmentOne fragment = new FragmentOne();

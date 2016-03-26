@@ -11,9 +11,9 @@ import com.qadib.qdfragmentmanager.R;
  */
 public abstract class BaseContainerFragment extends Fragment {
 
-    private BaseFragment currentFragment;
+    private QDFragment currentFragment;
 
-    public void replaceFragment(BaseFragment fragment, boolean addToBackStack) {
+    public void replaceFragment(QDFragment fragment, boolean addToBackStack) {
         fragment.setContainerFragment(this);
 
         FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
@@ -35,11 +35,11 @@ public abstract class BaseContainerFragment extends Fragment {
         return isPop;
     }
 
-    public BaseFragment getCurrentFragment() {
+    public QDFragment getCurrentFragment() {
         return currentFragment;
     }
 
-    public void setCurrentFragment(BaseFragment fragment) {
+    public void setCurrentFragment(QDFragment fragment) {
         currentFragment = fragment;
     }
 }

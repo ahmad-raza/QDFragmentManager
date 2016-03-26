@@ -9,10 +9,10 @@ import com.qadib.FragmentFour;
 import com.qadib.FragmentOne;
 import com.qadib.FragmentThree;
 import com.qadib.FragmentTwo;
-import com.qadib.qdfragmentmanager.FragmentHolder;
+import com.qadib.qdfragmentmanager.QDActivity;
 
 
-public class MainActivity extends FragmentHolder {
+public class MainActivity extends QDActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
